@@ -1,24 +1,28 @@
-# README
+To use this app :
+#clone the repository to your machine to ensure 
+that you are upto date
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+$git clone http://github.com/mureithi254/depot
 
-Things you may want to cover:
+```
 
-* Ruby version
+#Install the necessary gems necessary gems needed to run the the app
 
-* System dependencies
+```
+$bundle install --without production
 
-* Configuration
+```
+#do a database migration to save changes to a database
 
-* Database creation
+```
+$rails db:migrate
 
-* Database initialization
+```
+#start the rails server
 
-* How to run the test suite
+```
+$rails server
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+Regards
